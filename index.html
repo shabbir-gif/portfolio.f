@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            height: 700px;
+            width: 100%;
+            background-color: whitesmoke;
+            display: grid;
+            column-gap: 9px;
+            row-gap: 9px;
+            grid-template-rows: 100px 1fr 1fr 100px;
+            grid-template-columns: 1fr 1fr 1fr ;
+        
+        }
+        .item{
+            background-color: powderblue;
+        }
+        .item1{
+            grid-column: 1 / span 4;
+            background-color: burlywood;
+            color: white;
+            text-align: center;
+            font-size: xx-large;
+            font-style: italic;
+            
+            
+            
+        }
+        .footer{
+            grid-column: 1 / span 4;
+            background-color:burlywood;
+            color: white;
+            text-align: center;
+            font-size: x-large;
+        
+        }
+        img{
+            height: 240px; 
+            width: 100%;
+        }
+        p{
+            text-align: center;
+            font-size: large;
+            font-style: italic;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item item1">
+            <p>MY WEBSITE</p>
+            Real Heroes Of Islamic World
+        </div>
+        <div class="item">
+            <img src="./assets/images/Abbas-Ibnu-Firnas.jpeg" />
+        </div>
+        <div class="item">
+            <img src="./assets/images/Al-Farabi.jpg" />
+        </div> 
+        <div class="item">
+            <img src="./assets/images/Ibn al-Haytham.jpg" />
+        </div>
+        <div class="item">
+            
+        </div>
+        <div class="item">
+          <p> Abu al-Qasim Abbas ibn Firnas ibn Wirdas al-Takurini, known as Abbas ibn Firnas was an Andalusi polymath: an inventor, astronomer, physician, chemist, engineer, Andalusi musician, and Arabic-language poet. He was reported to have experimented with unpowered flight.</p>
+        </div>
+        <div class="item">
+            <p>Abu Nasr Muhammad al-Farabi, known in the Latin West as Alpharabius, was an early Islamic philosopher and music theorist. He has been designated as "Father of Islamic Neoplatonism", and the "Founder of Islamic Political Philosophy".</p>
+        </div>
+        <div class="item">
+           <p>Hasan Ibn al-Haytham was a medieval mathematician, astronomer, and physicist of the Islamic Golden Age from present-day Iraq. Referred to as "the father of modern optics", he made significant contributions to the principles of optics and visual perception in particular. </p>
+        </div>
+        <div class="item footer">
+          <p>SYED SHAH SHABBIR ALI HASNI</p>  
+            Software Devloper
+        </div>
+    </div>
+</body>
+</html>
